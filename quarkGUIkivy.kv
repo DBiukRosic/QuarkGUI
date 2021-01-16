@@ -1,0 +1,30 @@
+<MainLayout>
+    canvas.before:
+        Color:
+            rgba: (0,50/255,50/255,1)
+        Rectangle:
+            pos: self.pos
+            size: self.size
+    cols:1
+    #Gornji dio
+    UpperBar:
+        SearchInput:
+            pos_hint:{'center_y':0.5}
+        SearchButton:
+            pos_hint:{'center_y':0.5}
+        MainPageButton:
+            pos_hint:{'center_y': 0.5}
+        FavouritePageButton:
+            pos_hint:{'center_y':0.5}
+
+    #Donji dio
+    BottomBar:
+
+        FilterLayout
+
+        GamesLayout
+
+
+
+
+
